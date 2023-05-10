@@ -11,11 +11,8 @@
 '''
 class Solution(object):
     def search(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
+    
+        
         #左右均闭 []
         left,right = 0,len(right)-1
         while left<=right:
