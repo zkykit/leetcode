@@ -1,8 +1,8 @@
 
 ## 移除链表元素 Leetcode 203 
 ## 题目链接[https://leetcode.cn/problems/remove-linked-list-elements/]
-## 时间复杂度: O(n)
-## 空间复杂度: O(1)
+### 时间复杂度: O(n)
+### 空间复杂度: O(1)
 ### 思路:画图，
 ```
 class Solution(object):
@@ -24,8 +24,8 @@ class Solution(object):
 ```
 ## 设计链表Leetcode 707
 ## 题目链接 [https://leetcode.cn/problems/design-linked-list/]
-## 时间复杂度: 涉及 index 的相关操作为 O(index), 其余为 O(1)
-## 空间复杂度: O(n)
+### 时间复杂度: 涉及 index 的相关操作为 O(index), 其余为 O(1)
+### 空间复杂度: O(n)
 
 ```
 # 单链表
@@ -116,7 +116,7 @@ class MyLinkedList(object):
 
 ## 反转列表 Leetcode 206
 ## 题目链接[https://leetcode.cn/problems/reverse-linked-list/]
-## 思路：没有使用双指针，而是根据 cur,pre,head 这几个变量的关系，进行赋值，注意 temp,可以画图比较清晰。
+### 思路：没有使用双指针，而是根据 cur,pre,head 这几个变量的关系，进行赋值，注意 temp,可以画图比较清晰。
 ```
 class Solution(object):
     def reverseList(self, head):
