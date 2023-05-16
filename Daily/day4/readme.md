@@ -71,7 +71,7 @@ class Solution(object):
 ## Leetcode 环形链表142
 ## 题目[https://leetcode.cn/problems/linked-list-cycle-ii/submissions/]
 ### 思路：先找到环，再找交点;分别定义快慢和 index 指针。
-## 
+### ![image][https://github.com/zkykit/leetcode/blob/main/IMG/%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.jpg] 
 ```
 class Solution(object):
     def detectCycle(self, head):
