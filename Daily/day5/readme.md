@@ -25,8 +25,8 @@ class Solution(object):
 ## Leetcode 349 两个数组的交集 
 ### 题目链接[https://leetcode.cn/problems/intersection-of-two-arrays/submissions/]
 ### 思路： 哈希表。建立 set，nums1-> unordered_set。与nums2比较
-### 时间复杂度O(n)：；空间复杂度O(1)。
-## ![image]()
+### 时间复杂度O(n)；空间复杂度O(1)。
+## ![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E4%BA%A4%E9%9B%86.png)
 ```
 class Solution(object):
     def intersection(self, nums1, nums2):
