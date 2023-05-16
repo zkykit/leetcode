@@ -27,7 +27,7 @@ class Solution(object):
 ## Leetcode 24 删除倒数第 n 个节点 Leetcode 19
 ## 题目[https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/]
 ### 思路： 对于 fast,slow 的位置要清晰，如何移动，判断条件是什么
-### ![image]()
+### ![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E5%88%A0%E9%99%A4%E5%80%92%E6%95%B0%E7%AC%AC%20n%20%E4%B8%AA%E8%8A%82%E7%82%B9.JPG)
 ### 时间复杂度: O(n);空间复杂度: O(1)
 
 
