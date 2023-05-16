@@ -27,6 +27,10 @@ class Solution(object):
 ## Leetcode 24 删除倒数第 n 个节点 Leetcode 19
 ## 题目[https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/]
 ### 思路： 对于 fast,slow 的位置要清晰，如何移动，判断条件是什么
+### ![image]()
+### 时间复杂度: O(n);空间复杂度: O(1)
+
+
 ```
 class Solution(object):
     def removeNthFromEnd(self, head, n):
@@ -50,6 +54,8 @@ class Solution(object):
 ## Leetcode 02.07 链表相交
 ## 链接[https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/]
 ### 思路：分别从 A,B段走三段，最终路径一定相等。画图比较清晰
+### 时间复杂度：O(n+m)；空间复杂度O(1)。
+
 ```
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
@@ -71,7 +77,8 @@ class Solution(object):
 ## Leetcode 环形链表142
 ## 题目[https://leetcode.cn/problems/linked-list-cycle-ii/submissions/]
 ### 思路：先找到环，再找交点;分别定义快慢和 index 指针。
-### ![image][https://github.com/zkykit/leetcode/blob/main/IMG/%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.jpg] 
+### ![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.jpg) 
+### 时间复杂度：；空间复杂度。
 ```
 class Solution(object):
     def detectCycle(self, head):
