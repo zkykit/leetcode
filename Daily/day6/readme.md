@@ -1,5 +1,5 @@
 # 代码随想录训练营第5天 哈希表| Leetcode 242有效的字母异位 ,
-### 题目链接[https://leetcode.cn/problems/valid-anagram/submissions/]
+### [有效的字母异位](https://leetcode.cn/problems/valid-anagram/submissions/)
 ### 思路:用 ord 表示 ASCII码，先加再减，对于字母范围用26；
 ### 时间复杂度：O(n)；空间复杂度：O(1)
 
@@ -23,7 +23,7 @@ class Solution(object):
 ```
 
 ## Leetcode 349 两个数组的交集 
-### 题目链接[https://leetcode.cn/problems/intersection-of-two-arrays/submissions/]
+### [两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/submissions/)
 ### 思路： 哈希表。建立 set，nums1-> unordered_set。与nums2比较
 ### 时间复杂度O(n)；空间复杂度O(1)。
 ## ![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E4%BA%A4%E9%9B%86.png)
@@ -48,7 +48,7 @@ class Solution(object):
 
 
 ## Leetcode 202快乐数
-## 链接[https://leetcode.cn/problems/happy-number/submissions/]
+## [快乐数]（https://leetcode.cn/problems/happy-number/submissions/)
 ### 思路：判断是否在另一堆数里面，用 set，注意区分%，//
 ```
 class Solution(object):
@@ -76,7 +76,7 @@ class Solution(object):
                 record.add(n)
 ```
 ## Leetcode 两数之和 1
-## [链接](https://leetcode.cn/problems/two-sum/submissions/)
+## [两数之和](https://leetcode.cn/problems/two-sum/submissions/)
 ### 思路 用map，因为涉及到数组下标,注意如何将元素及索引添加到 map
 
 ```
