@@ -45,3 +45,55 @@ class Solution(object):
                 val_dict[num]=0
         return ans
 ```
+
+
+## Leetcode 202快乐数
+## 链接[https://leetcode.cn/problems/happy-number/submissions/]
+### 思路：判断是否在另一堆数里面，用 set，注意区分%，//
+```
+class Solution(object):
+    def isHappy(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
+        def cal_happy(num):
+            sum_ = 0
+            while num:
+                sum_ += (num%10)**2
+                num = num//10
+            return sum_ 
+        record = set()
+        
+        while True:
+            n = cal_happy(n)
+            if n == 1:
+                return True
+            
+            if n in record:
+                return False
+            else:
+                record.add(n)
+```
+## Leetcode 两数之和 1
+## [链接](https://leetcode.cn/problems/two-sum/submissions/)
+### 思路 用map，因为涉及到数组下标,注意如何将元素及索引添加到 map
+
+```
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        record = dict()
+        for i in range(len(nums)):
+            s=target-nums[i]
+            if s in record:
+                return [record[s],i]
+            #将当前元素及其索引添加到record字典中。
+            record[nums[i]] = i
+        return []
+
+```
