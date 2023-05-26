@@ -63,6 +63,7 @@ class Solution(object):
 ### 三数之和
 ### 思路：双指针，对于 left和 right 边界问题要注意(不用哈希表是因为这里复杂，考虑到剪枝.)
 ### [题目链接](https://leetcode.cn/problems/3sum/submissions/)
+### [思路画图](https://github.com/zkykit/leetcode/blob/main/IMG/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.JPG)
 ```
 class Solution(object):
     def threeSum(self, nums):
