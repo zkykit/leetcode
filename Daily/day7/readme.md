@@ -104,7 +104,7 @@ class Solution(object):
 ## 四数之和
 ### [题目链接](https://leetcode.cn/problems/4sum/submissions/)
 ### 思路，1. 左边加个 k 也就是加一个循环，2. 分别做两遍剪枝和去重。如果非要做剪枝，请留意和 target 判定时候怎么写
-### ![image]()
+### ![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.JPG)
 ```
 class Solution(object):
     def fourSum(self, nums, target):
