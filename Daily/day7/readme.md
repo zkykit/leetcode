@@ -100,3 +100,54 @@ class Solution(object):
             
 
 ```
+
+## 四数之和
+### [题目链接](https://leetcode.cn/problems/4sum/submissions/)
+### 思路，1. 左边加个 k 也就是加一个循环，2. 分别做两遍剪枝和去重。如果非要做剪枝，请留意和 target 判定时候怎么写
+### ![image]()
+```
+class Solution(object):
+    def fourSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        result = []
+        nums.sort()
+        
+        for k in range(len(nums)):
+            #剪枝 可有可无
+            # if nums[k]>target and nums[k]>0 and target>0:
+            #     return result
+            #去重
+            if k > 0 and nums[k] == nums[k-1]:
+                continue
+             
+            
+            for i in range(k+1,len(nums)):
+                #剪枝 可有可无
+                # if nums[k]+nums[i] > target and target>0:
+                #     break
+                #去重
+                if i>k+1 and nums[i]==nums[i-1]:
+                    continue
+                left = i+1
+                right = len(nums)-1
+                while left<right:
+                    sum = nums[k]+nums[i]+nums[left]+nums[right]
+                    if sum>target:
+                        right-=1
+                    elif sum<target:
+                        left+=1
+                    else:
+                        result.append([nums[k],nums[i],nums[left],nums[right]])
+                        #去重
+                        while left<right and nums[right] == nums[right-1]:
+                            right-=1
+                        while left<right and nums[left] == nums[left+1]:
+                            left+=1
+                        right-=1
+                        left+=1
+        return result
+```
