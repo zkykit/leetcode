@@ -1,7 +1,7 @@
 
 ## 用栈实现队列
 ### [题目链接](https://leetcode.cn/problems/implement-queue-using-stacks/submissions/)
-### 思路：不同的函数功能
+### 思路：不同的函数功能,需要两个stack
 ```
 class MyQueue(object):
 
@@ -44,9 +44,9 @@ class MyQueue(object):
 ```
 
 ## 用列实现栈
-### 思路: 注意 top 是用来获取front 元素
+### 思路: 注意 top 是用来获取front 元素, 一个deque 完成
 ### [题目链接](https://leetcode.cn/problems/implement-stack-using-queues/submissions/)
-
+### ![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.jpg)
 ```
 class MyStack(object):
 
