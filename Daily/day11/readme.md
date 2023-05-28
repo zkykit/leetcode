@@ -64,5 +64,5 @@ class Solution:
                 stack.append(
                     int(eval(f'{second_num} {item} {first_num}'))   # 第一个出来的在运算符后面
                 )
-        return int(stack.pop()) # 如果一开始只有一个数，那么会是字符串形式
+        return int(stack.pop()) # 如果一开始只有一个数，那是字符串
 ```
