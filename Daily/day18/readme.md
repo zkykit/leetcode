@@ -114,7 +114,7 @@ class Solution(object):
 
 ### 从中序与后序遍历序列构造二叉树 
 ### [题目链接](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/)
-### 思路见此图![image]()
+### 思路见此图![image](https://github.com/zkykit/leetcode/blob/main/IMG/%E5%89%8D%E5%BA%8F_%E4%B8%AD%E5%BA%8F_%E6%9E%84%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.jpg)
 
 ```
 # Definition for a binary tree node.
