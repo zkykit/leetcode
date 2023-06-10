@@ -42,3 +42,4 @@ class MyQueue: #单调队列（从大到小
         return self.queue[0]
 ```
 
+### 347跳过

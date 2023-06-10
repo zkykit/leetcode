@@ -66,3 +66,4 @@ class Solution:
                 )
         return int(stack.pop()) # 如果一开始只有一个数，那是字符串
 ```
+
