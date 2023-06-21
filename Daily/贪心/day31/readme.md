@@ -45,8 +45,8 @@ class Solution(object):
 ```
 
 ### 53最大子数组和
-### 
-### 
+### [题目链接](https://leetcode.cn/problems/maximum-subarray/submissions/)
+### 思路：for 循环 里面的判定条件重要
 ```
 class Solution(object):
     def maxSubArray(self, nums):
